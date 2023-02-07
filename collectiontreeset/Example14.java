@@ -1,0 +1,21 @@
+//14. Write a Java program to retrieve and remove the first element of a tree set.  
+package collectiontreeset;
+
+import java.util.TreeSet;
+
+public class Example14 {
+
+	public static void main(String[] args) {
+		TreeSet<Integer> Rollno=new TreeSet<Integer>();
+		Rollno.add(10);
+		Rollno.add(15);
+		Rollno.add(1);
+		Rollno.add(3);
+		Rollno.add(4);
+		
+		System.out.println(Rollno.pollFirst());
+		System.out.println(Rollno);
+		
+	}
+
+}

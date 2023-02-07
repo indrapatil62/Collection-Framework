@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author indra
+ *
+ */
+module collectionframework {
+}
